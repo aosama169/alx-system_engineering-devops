@@ -1,2 +1,2 @@
 #!/bin/bash
-cp *[A-Z]* /tmp/u
+ls *[A-Z]* |xargs -i cp {} /tmp/u
